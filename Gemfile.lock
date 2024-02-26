@@ -60,7 +60,8 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x86_64-linux-musl
+  ruby
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (= 4.2.2)
