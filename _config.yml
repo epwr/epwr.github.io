@@ -49,6 +49,7 @@ me-img: "https://github.com/epwr.png?size=500"
 ##############################
 color-browser: "#000000"
 apple-status-bar-style: "black"
+
 ################
 # Web app mode #
 ################
@@ -60,22 +61,23 @@ icon-72p: "/img/web-app/icon-72p.png"
 icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
+
 ########
 # Blog #
 ########
 post-preview-words: 96
-paginate: 8
-email-share: True
+paginate: 10
+email-share: False
 fb-share: False
 twitter-share: False
-linkedin-share: True
+linkedin-share: False
 reddit-share: False
 google-plus-share: False
 tumblr-share: False
 pinterest-share: False
-pocket-share: True
+pocket-share: False
 vkontakte-share: False
-disqus-shortname: "personal-jekyll-theme"
+# disqus-shortname: "personal-jekyll-theme"
 syntax-highlight: True
 
 ############
@@ -107,8 +109,9 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: 
-  "Eric Power is a backend Software Engineer who has "
+  "Eric Power is happiest working at the intersection of tech, policy, and business."
 author_blurb_image: "/img/author.png"
+
 ##################
 # Social Buttons #
 ##################
