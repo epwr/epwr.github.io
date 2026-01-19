@@ -1,5 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll', '4.2.2'
-gem 'jekyll-paginate', '1.1.0'
-gem 'webrick', '1.8.1'
+gem "github-pages", group: :jekyll_plugins
+gem "webrick" # Required for Ruby 3.0+
