@@ -8,13 +8,11 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
+  <header>
     <nav class="nav-container">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-      <ul class="nav-links">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-      </ul>
+      <a class="nav-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a href="{{ '/' | relative_url }}">about</a>
+      <a href="{{ '/blog/' | relative_url }}">blog</a>
     </nav>
   </header>
 
@@ -23,7 +21,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <span>&copy; {{ site.time | date: '%Y' }} Eric Power</span>
   </footer>
 </body>
 </html>

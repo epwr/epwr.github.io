@@ -1,10 +1,10 @@
-title: epwr.ca
-description: Personal website and blog
+title: epwr
+description: My home on the web
 url: "https://epwr.ca"
 
 # Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 # Default front matter
 defaults:
