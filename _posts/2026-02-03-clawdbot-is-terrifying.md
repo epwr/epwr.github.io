@@ -36,9 +36,9 @@ I think even Ralph can see the risk here.
 
 How do we want Clawdbot to work? Imagine if it was perfect: I can give them a goal, and they can just do it. Wonderful.
 
-Let's stay in that world. I ask Clawdbot "Get me tickets to the Taylor Swift show next Friday", but that show is sold out. Maybe Clawdbot tries resale sites, or maybe it finds out that my friend, let's call him Bob, has tickets. The agent might just decide that it's okay to email Bob (from my email account) and say: sell me your tickets or I'll tell our friends that you <insert some horrible accusation>.
+Let's stay in that world. I ask Clawdbot "Get me tickets to the Taylor Swift show next Friday", but that show is sold out. Maybe Clawdbot tries resale sites. But maybe Clawdbot finds out that my friend, Bob, has tickets. Clawdbot might just decide that it's okay to email Bob (from my email account) and say: sell me your tickets or I'll tell our friends that you <insert some horrible accusation>.
 
-This is called "alignment", and is a common problem in Generative AI. We want our agents (like Clawdbot) to have a sense of morality. We want our agents to know when I ask them to do something what boundaries there are to that ask without me having to explain it. This is what a human assistant would know, but it's really hard to do this for agents[^1].
+I obviously don't want Clawdbot to do that, but I didn't explicitly tell it not to. This is called "alignment", and is a common problem in Generative AI. We want our agents (like Clawdbot) to have a sense of morality. We want our agents to know when I ask them to do something what boundaries there are to that ask without me having to explain it. This is what a human assistant would know, but it's really hard to do this for agents[^1].
 
 Even if alignment were perfect (it's not, and it won't be), there's hallucinations. Hallucinations are when an LLM output a statement that turns out to be completely untrue. Clawdbot might think "I shouldn't push this red button as it will blow up the world", but then it could hallucinate "All people have left the world for Mars", and decide that maybe blowing up the world wouldn't be so bad. 
 
