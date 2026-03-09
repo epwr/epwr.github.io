@@ -2,6 +2,7 @@
 layout: default
 title: "Clawdbot is Terrifying"
 date: 2026-02-03
+tags: AI
 ---
 
 Clawdbot (now renamed to [OpenClaw](https://openclaw.ai/)) is getting some buzz in mostly non-technical circles as a super powered AI assistant. 
