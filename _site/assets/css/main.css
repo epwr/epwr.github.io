@@ -201,10 +201,8 @@ img {
   left: 0;
   right: 0;
   background-color: var(--nord0);
-  max-width: var(--content-width);
   height: var(--header-height);
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 max(1.5rem, calc(50% - var(--content-width) / 2 + 1.5rem));
   display: flex;
   justify-content: space-between;
   align-items: center;
