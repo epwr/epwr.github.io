@@ -5,6 +5,12 @@ permalink: /
 
 # About
 
+<div class="page-width-content" style="height: 500px">
+  <img alt="West Coast Sunrise" src="/assets/imgs/saltspring-sunrise.jpeg"/>
+</div>
+
+<br/>
+
 You can find me on the west coast of Canada running the shore, swimming in the ocean with friends, and tinkering with technology.
 
 The most interesting area of software to me is how to encode knowledge in a way that humans can understand, and computers can use. 

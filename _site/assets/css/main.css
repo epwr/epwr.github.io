@@ -148,7 +148,23 @@ img {
   height: auto;
 }
 
+.page-width-content {
+  position: relative;
+  width: 100%;
+}
 
+.page-width-content > * {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 /***************************************************************************************
  *                                      Utilities                                      *
  ***************************************************************************************/
