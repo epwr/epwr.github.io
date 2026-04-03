@@ -15,7 +15,7 @@ No human in the loop for selecting which jobs are a good fit, or reviewing an AI
 
 I've hired for multiple positions — even before the ChatGPT moment, we were getting 400+ job applications for many positions. Now I'm seeing >1000 direct applications per software engineer position. 
 
-Along with the huge jump in applications, the signal to noise ratio is falling. Three years ago, maybe 1 application in 40 got offered an interview. Now it's less than to 1 in 100.
+Along with the huge jump in applications, the signal to noise ratio is falling. Three years ago, maybe 1 application in 30 got offered an interview. Now it's less than to 1 in 100.
 
 Most of this growth seems logically to come from AI making it easier to apply[^2]. If applications are faster to research, write, and submit, why wouldn't people apply to more jobs? Sure, there's other factors in play (eg. [tech jobs are having a rough moment](https://bsky.app/profile/josephpolitano.bsky.social/post/3mgfh6ddrxs26)), but not a >2x growth.
 
