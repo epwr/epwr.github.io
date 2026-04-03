@@ -5,7 +5,7 @@ permalink: /
 
 # About
 
-<div class="page-width-content" style="height: 500px">
+<div class="page-width-content" style="height: 300px">
   <img alt="West Coast Sunrise" src="/assets/imgs/saltspring-sunrise.jpeg"/>
 </div>
 
