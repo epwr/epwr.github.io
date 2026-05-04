@@ -88,12 +88,12 @@ p {
 
 /* Code */
 code {
-
   font-family: var(--monospace-font-families);
   background-color: var(--nord1);
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
   font-size: 0.9em;
+  width: 100%;
 }
 
 pre {
@@ -102,11 +102,18 @@ pre {
   border-radius: 6px;
   overflow-x: auto;
   margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* Jekyll uses Rouge to display code blocks. */
+.highlighter-rouge {
+  width: 100%;
 }
 
 pre code {
   background: none;
   padding: 0;
+  width: 100%;
 }
 
 /* Lists */
