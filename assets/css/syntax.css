@@ -1,0 +1,128 @@
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+
+.highlight {
+  color: var(--nord4);
+  background-color: var(--nord1);
+}
+
+/* Comments */
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf,
+.highlight .cm, .highlight .c1 {
+  color: var(--nord3);
+  font-style: italic;
+}
+.highlight .cp {
+  color: var(--nord3);
+  font-weight: bold;
+}
+.highlight .cs {
+  color: var(--nord3);
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Errors */
+.highlight .err {
+  color: var(--nord11);
+  background-color: var(--nord1);
+}
+
+/* Diff: inserted / deleted */
+.highlight .gi {
+  color: var(--nord14);
+}
+.highlight .gd {
+  color: var(--nord11);
+}
+
+/* Generic formatting */
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gr, .highlight .gt {
+  color: var(--nord11);
+}
+.highlight .gh, .highlight .gu {
+  color: var(--nord8);
+}
+.highlight .go, .highlight .gp {
+  color: var(--nord3);
+}
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Keywords */
+.highlight .k, .highlight .kv, .highlight .kc, .highlight .kd,
+.highlight .kp, .highlight .kr, .highlight .kt {
+  color: var(--nord9);
+  font-weight: bold;
+}
+.highlight .kn {
+  color: var(--nord9);
+  font-weight: bold;
+}
+
+/* Operators */
+.highlight .o, .highlight .ow {
+  color: var(--nord9);
+  font-weight: bold;
+}
+
+/* Numbers */
+.highlight .m, .highlight .mb, .highlight .mx, .highlight .mf,
+.highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
+  color: var(--nord15);
+}
+
+/* Strings */
+.highlight .s, .highlight .dl, .highlight .sb, .highlight .sc,
+.highlight .sd, .highlight .s2, .highlight .sh, .highlight .si,
+.highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  color: var(--nord14);
+}
+.highlight .sa {
+  color: var(--nord9);
+  font-weight: bold;
+}
+.highlight .se {
+  color: var(--nord13);
+}
+
+/* Names: functions, classes, decorators */
+.highlight .nf, .highlight .fm {
+  color: var(--nord8);
+  font-weight: bold;
+}
+.highlight .nc, .highlight .ne {
+  color: var(--nord7);
+  font-weight: bold;
+}
+.highlight .nd {
+  color: var(--nord12);
+  font-weight: bold;
+}
+.highlight .na {
+  color: var(--nord8);
+}
+.highlight .no {
+  color: var(--nord9);
+}
+.highlight .nt {
+  color: var(--nord9);
+}
+
+/* Names: builtins, variables, namespaces */
+.highlight .bp, .highlight .nb, .highlight .ni, .highlight .nn,
+.highlight .nv, .highlight .vm, .highlight .vc, .highlight .vg,
+.highlight .vi {
+  color: var(--nord4);
+}
+.highlight .nl {
+  color: var(--nord4);
+  font-weight: bold;
+}
+.highlight .w {
+  color: var(--nord4);
+}
